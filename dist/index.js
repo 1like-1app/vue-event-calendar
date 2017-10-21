@@ -278,8 +278,8 @@ module.exports = function normalizeComponent (
     monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
     format: 'MM/yyyy',
     fullFormat: 'dd/MM/yyyy',
-    dayEventsTitle: 'Все события',
-    notHaveEvents: 'События отсутствуют'
+    dayEventsTitle: 'Все мероприятия',
+    notHaveEvents: 'Мероприятия отсутствуют'
   },
   sv: {
     dayNames: ["Sön", "Mån", "Tis", "Ons", "Tor", "Fre", "Lör"],
