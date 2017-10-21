@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <h3 class="title">{{index+1}}. {{event.title}}</h3>
-    <p class="time">{{dateTimeFormatter(Date.parse(new Date(event.startDate.toISOString().split('T')[0])),i18n[locale].fullFormat)}}</p>
+    <p class="time">{{dateTimeFormatter(Date.parse(new Date(event.startTime.toISOString().split('T')[0])),i18n[locale].fullFormat)}}</p>
     <p class="desc">{{event.desc}}</p>
   </div>
 </template>
